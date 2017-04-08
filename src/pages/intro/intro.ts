@@ -13,8 +13,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'intro.html',
 })
 export class Intro {
-
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+   
   }
 
   ionViewDidLoad() {
