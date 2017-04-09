@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { Intro } from '../pages/intro/intro';
 import { Map } from '../pages/map/map';
+import { Terrain } from '../pages/terrain/terrain';
 
 import { Geolocation } from '@ionic-native/geolocation';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -18,7 +19,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     Intro,
-    Map
+    Map,
+    Terrain
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     Intro,
-    Map
+    Map,
+    Terrain
   ],
   providers: [
     StatusBar,

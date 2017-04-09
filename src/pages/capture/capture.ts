@@ -1,27 +1,24 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
 
 /**
- * Generated class for the Intro page.
+ * Generated class for the Capture page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @IonicPage()
 @Component({
-  selector: 'page-intro',
-  templateUrl: 'intro.html',
+  selector: 'page-capture',
+  templateUrl: 'capture.html',
 })
-export class Intro {
+export class Capture {
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-   
   }
-  goToHome(){
-    this.navCtrl.setRoot(HomePage);
-  }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Intro');
+    console.log('ionViewDidLoad Capture');
   }
 
 }
